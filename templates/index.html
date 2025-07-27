@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        }
+        .card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen gradient-bg text-white">
+    <div class="container mx-auto px-4 py-12">
+        <div class="max-w-2xl mx-auto text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">Video Downloader</h1>
+            <p class="text-lg opacity-90">Download videos from YouTube and Instagram with just one click!</p>
+        </div>
+
+        <div class="max-w-2xl mx-auto card rounded-2xl p-8 shadow-2xl">
+            <div class="mb-8">
+                <div class="mb-4">
+                    <div class="relative">
+                        <input 
+                            type="text" 
+                            id="videoUrl" 
+                            placeholder="Paste YouTube or Instagram URL here..." 
+                            class="w-full px-6 py-4 rounded-full bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-purple-400 text-white placeholder-white/60"
+                        >
+                        <button 
+                            id="downloadBtn" 
+                            class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-2 rounded-full transition duration-200"
+                        >
+                            <i class="fas fa-download mr-2"></i> Download
+                        </button>
+                    </div>
+                    <div class="mt-3 flex items-center space-x-4">
+                        <label class="text-sm text-white/80">Quality:</label>
+                        <select id="videoQuality" class="bg-white/10 border border-white/20 text-white rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400">
+                            <option value="best">Best Available</option>
+                            <option value="4k">4K (2160p)</option>
+                            <option value="2k">2K (1440p)</option>
+                            <option value="1080">Full HD (1080p)</option>
+                            <option value="720">HD (720p)</option>
+                            <option value="480">SD (480p)</option>
+                            <option value="audio">Audio Only</option>
+                        </select>
+                    </div>
+                </div>
+                <p id="error" class="text-red-400 mt-2 text-sm hidden"></p>
+            </div>
+
+            <div id="result" class="hidden">
+                <div class="bg-white/10 rounded-xl p-6 mb-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 id="videoTitle" class="text-xl font-semibold"></h3>
+                        <span id="platformBadge" class="px-3 py-1 rounded-full text-xs font-semibold"></span>
+                    </div>
+                    <div class="flex justify-center">
+                        <a 
+                            id="downloadLink" 
+                            href="#" 
+                            class="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full transition duration-200"
+                        >
+                            <i class="fas fa-download mr-2"></i> Download Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="text-center py-8">
+                    <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-400 mb-4"></div>
+                    <p class="text-lg">Processing your request...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center text-sm opacity-75">
+            <p>Supported platforms: YouTube, Instagram</p>
+            <p class="mt-2">For personal use only. Please respect copyright laws.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const downloadBtn = document.getElementById('downloadBtn');
+            const videoUrl = document.getElementById('videoUrl');
+            const resultDiv = document.getElementById('result');
+            const loadingDiv = document.getElementById('loading');
+            const errorElement = document.getElementById('error');
+            const videoTitle = document.getElementById('videoTitle');
+            const platformBadge = document.getElementById('platformBadge');
+            const downloadLink = document.getElementById('downloadLink');
+
+            function showError(message) {
+                errorElement.textContent = message;
+                errorElement.classList.remove('hidden');
+                resultDiv.classList.add('hidden');
+                loadingDiv.classList.add('hidden');
+            }
+
+            function resetUI() {
+                errorElement.classList.add('hidden');
+                resultDiv.classList.add('hidden');
+                loadingDiv.classList.add('hidden');
+            }
+
+            function isYouTubeUrl(url) {
+                return url.match(/(youtube\.com|youtu\.be|youtube-nocookie\.com)/i);
+            }
+
+            function isInstagramUrl(url) {
+                return url.match(/instagram\.com\/(p|reel|tv|stories)/i);
+            }
+
+            downloadBtn.addEventListener('click', async function() {
+                const url = videoUrl.value.trim();
+                const quality = document.getElementById('videoQuality').value;
+                
+                if (!url) {
+                    showError('Please enter a valid URL');
+                    return;
+                }
+
+                if (!isYouTubeUrl(url) && !isInstagramUrl(url)) {
+                    showError('Please enter a valid YouTube or Instagram URL');
+                    return;
+                }
+
+                resetUI();
+                downloadBtn.disabled = true;
+                downloadBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Downloading...';
+
+                try {
+                    const response = await fetch('/download', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ 
+                            url,
+                            quality: quality || 'best' // Default to 'best' if not specified
+                        })
+                    });
+
+                    const data = await response.json();
+
+                    if (!data.success) {
+                        throw new Error(data.error || 'Failed to process the video');
+                    }
+
+                    // Show result
+                    videoTitle.textContent = data.title || 'Video';
+                    
+                    if (isYouTubeUrl(url)) {
+                        platformBadge.textContent = 'YouTube';
+                        platformBadge.className = 'px-3 py-1 rounded-full text-xs font-semibold bg-red-600';
+                    } else {
+                        platformBadge.textContent = 'Instagram';
+                        platformBadge.className = 'px-3 py-1 rounded-full text-xs font-semibold bg-pink-600';
+                    }
+
+                    downloadLink.href = data.download_url;
+                    resultDiv.classList.remove('hidden');
+                } catch (error) {
+                    showError(error.message || 'An error occurred. Please try again.');
+                } finally {
+                    loadingDiv.classList.add('hidden');
+                }
+            });
+
+            // Allow pressing Enter key to trigger download
+            videoUrl.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    downloadBtn.click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

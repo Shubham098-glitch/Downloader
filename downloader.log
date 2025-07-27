@@ -1,0 +1,645 @@
+2025-07-27 05:42:55,973 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:42:59,705 - INFO - yt-dlp is already up to date
+2025-07-27 05:42:59,738 - WARNING -  * Debugger is active!
+2025-07-27 05:42:59,747 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:44:00,954 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:44:00,955 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:44:00,957 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:46:33,180 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:46:36,845 - INFO - yt-dlp is already up to date
+2025-07-27 05:46:36,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.145.243:5000
+2025-07-27 05:46:36,896 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 05:46:36,918 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:46:38,358 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:46:42,100 - INFO - yt-dlp is already up to date
+2025-07-27 05:46:42,132 - WARNING -  * Debugger is active!
+2025-07-27 05:46:42,140 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:46:48,175 - INFO - 127.0.0.1 - - [27/Jul/2025 05:46:48] "GET / HTTP/1.1" 200 -
+2025-07-27 05:46:49,126 - INFO - 127.0.0.1 - - [27/Jul/2025 05:46:49] "GET / HTTP/1.1" 200 -
+2025-07-27 05:46:49,375 - INFO - 127.0.0.1 - - [27/Jul/2025 05:46:49] "GET / HTTP/1.1" 200 -
+2025-07-27 05:47:30,291 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:32,301 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:47:32,549 - INFO - Fetching video info...
+2025-07-27 05:47:33,595 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:33,596 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:47:33,630 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:47:33,634 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:47:34,611 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:47:35,151 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:47:35,657 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:47:35,973 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:47:36,026 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:47:36,293 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\logging\\__init__.py', reloading
+2025-07-27 05:47:36,471 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:36,472 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\encodings\\cp1252.py', reloading
+2025-07-27 05:47:36,472 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:47:36,472 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2025-07-27 05:47:36,473 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:47:36,474 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2025-07-27 05:47:36,477 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:47:36,478 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\http\\server.py', reloading
+2025-07-27 05:47:36,479 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\socketserver.py', reloading
+2025-07-27 05:47:36,482 - INFO -  * Detected change in 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\threading.py', reloading
+2025-07-27 05:47:37,111 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:47:38,649 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:47:42,422 - INFO - yt-dlp is already up to date
+2025-07-27 05:47:42,454 - WARNING -  * Debugger is active!
+2025-07-27 05:47:42,465 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:47:42,502 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:44,483 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:47:44,718 - INFO - Fetching video info...
+2025-07-27 05:47:45,861 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:45,863 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:47:45,901 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:47:45,904 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:47:46,904 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:47:47,359 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:47:47,663 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:47:47,986 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:47:48,041 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:47:48,301 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:47:48,302 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:47:48,304 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:47:48,307 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:47:49,454 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:47:50,071 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:47:50,352 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:47:50,710 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:47:50,767 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:47:50,988 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 05:47:51,391 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m  45.24KiB/s[0m ETA [0;33m05:42[0m
+2025-07-27 05:47:51,392 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 121.29KiB/s[0m ETA [0;33m02:07[0m
+2025-07-27 05:47:51,393 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 261.50KiB/s[0m ETA [0;33m00:59[0m
+2025-07-27 05:47:51,395 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m 540.14KiB/s[0m ETA [0;33m00:28[0m
+2025-07-27 05:47:51,413 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m 666.83KiB/s[0m ETA [0;33m00:23[0m
+2025-07-27 05:47:51,459 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m 679.96KiB/s[0m ETA [0;33m00:22[0m
+2025-07-27 05:47:51,504 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m 934.36KiB/s[0m ETA [0;33m00:16[0m
+2025-07-27 05:47:51,567 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:11[0m
+2025-07-27 05:47:51,629 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   1.90MiB/s[0m ETA [0;33m00:07[0m
+2025-07-27 05:47:51,724 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   2.80MiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 05:47:51,819 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   4.42MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:47:51,937 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m   7.02MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:47:52,145 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  10.27MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:47:52,258 - INFO - [download] [0;94m 64.6%[0m of   15.11MiB at [0;32m  10.95MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:47:52,547 - INFO - [download] [0;94m 64.6%[0m of   15.11MiB at [0;32m 660.42KiB/s[0m ETA [0;33m00:08[0m
+2025-07-27 05:47:52,550 - INFO - [download] [0;94m 64.6%[0m of   15.11MiB at [0;32m 993.13KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 05:47:52,551 - INFO - [download] [0;94m 64.6%[0m of   15.11MiB at [0;32m   1.70MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:47:52,551 - INFO - [download] [0;94m 64.7%[0m of   15.11MiB at [0;32m   2.64MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:47:52,601 - INFO - [download] [0;94m 64.8%[0m of   15.11MiB at [0;32m 557.20KiB/s[0m ETA [0;33m00:09[0m
+2025-07-27 05:47:52,640 - INFO - [download] [0;94m 65.0%[0m of   15.11MiB at [0;32m 665.18KiB/s[0m ETA [0;33m00:08[0m
+2025-07-27 05:47:52,680 - INFO - [download] [0;94m 65.4%[0m of   15.11MiB at [0;32m 949.12KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 05:47:52,734 - INFO - [download] [0;94m 66.2%[0m of   15.11MiB at [0;32m   1.32MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:47:52,787 - INFO - [download] [0;94m 67.9%[0m of   15.11MiB at [0;32m   2.07MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:47:52,852 - INFO - [download] [0;94m 71.2%[0m of   15.11MiB at [0;32m   3.27MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:47:52,930 - INFO - [download] [0;94m 77.8%[0m of   15.11MiB at [0;32m   5.20MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:47:53,062 - INFO - [download] [0;94m 91.1%[0m of   15.11MiB at [0;32m   7.75MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:47:53,149 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m   8.89MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:47:53,152 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:02[0m at [0;32m7.05MiB/s[0m
+2025-07-27 05:47:53,196 - INFO - 127.0.0.1 - - [27/Jul/2025 05:47:53] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:47:57,000 - INFO - 127.0.0.1 - - [27/Jul/2025 05:47:57] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:48:58,829 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:48:58,831 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:48:58,831 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:48:59,940 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:49:01,642 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:49:05,420 - INFO - yt-dlp is already up to date
+2025-07-27 05:49:05,451 - WARNING -  * Debugger is active!
+2025-07-27 05:49:05,459 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:49:09,191 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:09,193 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:09,194 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:09,665 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:49:11,315 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:49:15,005 - INFO - yt-dlp is already up to date
+2025-07-27 05:49:15,035 - WARNING -  * Debugger is active!
+2025-07-27 05:49:15,046 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:49:29,510 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:29,511 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:29,511 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:49:30,400 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:50:20,461 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:50:24,151 - INFO - yt-dlp is already up to date
+2025-07-27 05:50:24,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.145.243:5000
+2025-07-27 05:50:24,202 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 05:50:24,227 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:50:25,761 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:50:29,483 - INFO - yt-dlp is already up to date
+2025-07-27 05:50:29,515 - WARNING -  * Debugger is active!
+2025-07-27 05:50:29,523 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:50:48,515 - INFO - 127.0.0.1 - - [27/Jul/2025 05:50:48] "GET / HTTP/1.1" 200 -
+2025-07-27 05:50:53,469 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:50:55,778 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:50:56,015 - INFO - Fetching video info...
+2025-07-27 05:50:57,062 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:50:57,064 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:50:57,101 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:50:57,103 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:50:58,442 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:50:58,882 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:50:59,162 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:50:59,513 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:50:59,566 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:50:59,799 - INFO - Output path: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:50:59,800 - ERROR - Download failed: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\shubh\Desktop\Downloader\app.py", line 212, in download_youtube_video
+    ydl.download([url])
+  File "C:\Users\shubh\AppData\Local\Programs\Python\Python310\lib\site-packages\yt_dlp\YoutubeDL.py", line 3648, in download
+    outtmpl = self.params['outtmpl']['default']
+TypeError: string indices must be integers
+2025-07-27 05:50:59,804 - INFO - 127.0.0.1 - - [27/Jul/2025 05:50:59] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:51:48,406 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:51:48,408 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:51:48,409 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:51:48,737 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:51:50,543 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:51:54,617 - INFO - yt-dlp is already up to date
+2025-07-27 05:51:54,649 - WARNING -  * Debugger is active!
+2025-07-27 05:51:54,657 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:52:15,058 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:52:17,053 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:52:17,290 - INFO - Fetching video info...
+2025-07-27 05:52:18,353 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:52:18,354 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:52:18,391 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:52:18,394 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:52:19,350 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:52:19,750 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:52:20,015 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:52:20,319 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:52:20,373 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:52:20,608 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:52:20,731 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:52:20,731 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:52:20,734 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:52:20,737 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:52:21,851 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:52:22,308 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:52:22,580 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:52:22,867 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:52:22,919 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:52:23,132 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 05:52:23,346 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:52:23,348 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 180.08KiB/s[0m ETA [0;33m01:25[0m
+2025-07-27 05:52:23,349 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 397.24KiB/s[0m ETA [0;33m00:38[0m
+2025-07-27 05:52:23,350 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 799.89KiB/s[0m ETA [0;33m00:19[0m
+2025-07-27 05:52:23,351 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   1.50MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 05:52:23,373 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m 965.12KiB/s[0m ETA [0;33m00:16[0m
+2025-07-27 05:52:23,398 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.11MiB/s[0m ETA [0;33m00:13[0m
+2025-07-27 05:52:23,423 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.51MiB/s[0m ETA [0;33m00:09[0m
+2025-07-27 05:52:23,453 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.24MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:52:23,496 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.22MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:52:23,534 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   5.16MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:52:23,599 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   7.75MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:52:23,648 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  13.06MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:23,803 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  17.33MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:23,887 - INFO - [download] [0;94m 65.9%[0m of   15.11MiB at [0;32m  18.25MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:23,987 - INFO - [download] [0;94m 65.9%[0m of   15.11MiB at [0;32m 226.43KiB/s[0m ETA [0;33m00:23[0m
+2025-07-27 05:52:23,988 - INFO - [download] [0;94m 65.9%[0m of   15.11MiB at [0;32m 550.46KiB/s[0m ETA [0;33m00:09[0m
+2025-07-27 05:52:23,989 - INFO - [download] [0;94m 66.0%[0m of   15.11MiB at [0;32m   1.06MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:52:23,990 - INFO - [download] [0;94m 66.0%[0m of   15.11MiB at [0;32m   1.84MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:52:24,008 - INFO - [download] [0;94m 66.1%[0m of   15.11MiB at [0;32m   1.22MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:52:24,033 - INFO - [download] [0;94m 66.3%[0m of   15.11MiB at [0;32m   1.24MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:52:24,069 - INFO - [download] [0;94m 66.7%[0m of   15.11MiB at [0;32m   1.43MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:52:24,099 - INFO - [download] [0;94m 67.6%[0m of   15.11MiB at [0;32m   2.13MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:52:24,126 - INFO - [download] [0;94m 69.2%[0m of   15.11MiB at [0;32m   3.49MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:52:24,160 - INFO - [download] [0;94m 72.5%[0m of   15.11MiB at [0;32m   5.65MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:24,191 - INFO - [download] [0;94m 79.1%[0m of   15.11MiB at [0;32m   9.61MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:24,261 - INFO - [download] [0;94m 92.4%[0m of   15.11MiB at [0;32m  14.37MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:24,280 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m  17.28MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:52:24,285 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m13.32MiB/s[0m
+2025-07-27 05:52:24,295 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 05:52:24,311 - ERROR - Error in download_youtube_video: name 'filename' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shubh\Desktop\Downloader\app.py", line 231, in download_youtube_video
+    if os.path.exists(filename) and os.path.getsize(filename) > 1024:  # At least 1KB
+NameError: name 'filename' is not defined
+2025-07-27 05:52:24,314 - INFO - 127.0.0.1 - - [27/Jul/2025 05:52:24] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:52:55,946 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:52:55,948 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:52:56,831 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:52:58,475 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:53:02,177 - INFO - yt-dlp is already up to date
+2025-07-27 05:53:02,207 - WARNING -  * Debugger is active!
+2025-07-27 05:53:02,215 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:53:36,538 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:53:36,539 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:53:36,776 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:54:15,418 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:54:19,119 - INFO - yt-dlp is already up to date
+2025-07-27 05:54:19,170 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.145.243:5000
+2025-07-27 05:54:19,171 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 05:54:19,192 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:54:20,706 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:54:24,400 - INFO - yt-dlp is already up to date
+2025-07-27 05:54:24,432 - WARNING -  * Debugger is active!
+2025-07-27 05:54:24,441 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:54:38,683 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:54:40,661 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:54:40,900 - INFO - Fetching video info...
+2025-07-27 05:54:41,961 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:54:41,963 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:54:41,997 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:54:42,000 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:54:42,901 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:54:43,424 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:54:43,765 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:54:44,108 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:54:44,160 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:54:44,399 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:54:44,516 - INFO - Removed existing file: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:54:44,526 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:54:44,527 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:54:44,529 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:54:44,532 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:54:45,430 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:54:45,844 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:54:46,130 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:54:46,457 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:54:46,511 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:54:46,726 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 05:54:46,888 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:54:46,890 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 381.34KiB/s[0m ETA [0;33m00:40[0m
+2025-07-27 05:54:46,891 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 723.16KiB/s[0m ETA [0;33m00:21[0m
+2025-07-27 05:54:46,892 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m   1.21MiB/s[0m ETA [0;33m00:12[0m
+2025-07-27 05:54:46,894 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   2.20MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:54:46,910 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m   1.28MiB/s[0m ETA [0;33m00:11[0m
+2025-07-27 05:54:46,944 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.10MiB/s[0m ETA [0;33m00:13[0m
+2025-07-27 05:54:46,970 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.48MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 05:54:47,000 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.19MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:54:47,037 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.34MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:54:47,091 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   4.89MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:54:47,157 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   7.45MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:54:47,233 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  11.59MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,404 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  15.47MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,455 - INFO - [download] [0;94m 65.3%[0m of   15.11MiB at [0;32m  17.36MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,565 - INFO - [download] [0;94m 65.3%[0m of   15.11MiB at [0;32m 271.25KiB/s[0m ETA [0;33m00:19[0m
+2025-07-27 05:54:47,566 - INFO - [download] [0;94m 65.3%[0m of   15.11MiB at [0;32m 574.27KiB/s[0m ETA [0;33m00:09[0m
+2025-07-27 05:54:47,567 - INFO - [download] [0;94m 65.4%[0m of   15.11MiB at [0;32m 898.36KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 05:54:47,568 - INFO - [download] [0;94m 65.4%[0m of   15.11MiB at [0;32m   1.66MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:54:47,597 - INFO - [download] [0;94m 65.5%[0m of   15.11MiB at [0;32m 859.86KiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:54:47,614 - INFO - [download] [0;94m 65.7%[0m of   15.11MiB at [0;32m   1.14MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:54:47,639 - INFO - [download] [0;94m 66.1%[0m of   15.11MiB at [0;32m   1.59MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:54:47,669 - INFO - [download] [0;94m 67.0%[0m of   15.11MiB at [0;32m   2.29MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:54:47,695 - INFO - [download] [0;94m 68.6%[0m of   15.11MiB at [0;32m   3.71MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:54:47,756 - INFO - [download] [0;94m 71.9%[0m of   15.11MiB at [0;32m   5.14MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,822 - INFO - [download] [0;94m 78.5%[0m of   15.11MiB at [0;32m   7.62MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,887 - INFO - [download] [0;94m 91.8%[0m of   15.11MiB at [0;32m  12.25MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,917 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m  14.69MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:54:47,921 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m12.86MiB/s[0m
+2025-07-27 05:54:47,931 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 05:54:47,947 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 05:54:47,948 - ERROR - Error in download_youtube_video: name 'datetime' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shubh\Desktop\Downloader\app.py", line 258, in download_youtube_video
+    'timestamp': datetime.now().isoformat(),
+NameError: name 'datetime' is not defined
+2025-07-27 05:54:47,951 - INFO - 127.0.0.1 - - [27/Jul/2025 05:54:47] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:55:15,952 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:55:15,954 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:55:15,955 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 05:55:16,452 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 05:55:18,079 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 05:55:21,985 - INFO - yt-dlp is already up to date
+2025-07-27 05:55:22,015 - WARNING -  * Debugger is active!
+2025-07-27 05:55:22,023 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 05:55:45,096 - INFO - 127.0.0.1 - - [27/Jul/2025 05:55:45] "GET / HTTP/1.1" 200 -
+2025-07-27 05:55:57,692 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:55:59,608 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:55:59,845 - INFO - Fetching video info...
+2025-07-27 05:56:00,975 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:56:00,976 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:56:01,016 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:56:01,020 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:56:02,026 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:56:02,572 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:56:02,819 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:56:03,132 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:56:03,189 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:56:03,439 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:56:03,558 - INFO - Removed existing file: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:56:03,567 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:56:03,568 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:56:03,570 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:56:03,576 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:56:04,650 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:56:05,076 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:56:05,368 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:56:05,674 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:56:05,732 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:56:05,963 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 05:56:06,087 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:56:06,088 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 108.11KiB/s[0m ETA [0;33m02:23[0m
+2025-07-27 05:56:06,089 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 289.38KiB/s[0m ETA [0;33m00:53[0m
+2025-07-27 05:56:06,090 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 588.08KiB/s[0m ETA [0;33m00:26[0m
+2025-07-27 05:56:06,093 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   1.12MiB/s[0m ETA [0;33m00:13[0m
+2025-07-27 05:56:06,121 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m 765.38KiB/s[0m ETA [0;33m00:20[0m
+2025-07-27 05:56:06,135 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.12MiB/s[0m ETA [0;33m00:13[0m
+2025-07-27 05:56:06,164 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.46MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 05:56:06,194 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.16MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:56:06,223 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.45MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:56:06,270 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   5.26MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:56:06,318 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   8.39MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:56:06,377 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  13.45MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:06,490 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  19.49MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:06,540 - INFO - [download] [0;94m 65.0%[0m of   15.11MiB at [0;32m  21.28MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:06,644 - INFO - [download] [0;94m 65.0%[0m of   15.11MiB at [0;32m 191.17KiB/s[0m ETA [0;33m00:28[0m
+2025-07-27 05:56:06,644 - INFO - [download] [0;94m 65.0%[0m of   15.11MiB at [0;32m 481.55KiB/s[0m ETA [0;33m00:11[0m
+2025-07-27 05:56:06,646 - INFO - [download] [0;94m 65.0%[0m of   15.11MiB at [0;32m 858.13KiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 05:56:06,647 - INFO - [download] [0;94m 65.1%[0m of   15.11MiB at [0;32m   1.60MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:56:06,659 - INFO - [download] [0;94m 65.2%[0m of   15.11MiB at [0;32m   1.43MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:56:06,678 - INFO - [download] [0;94m 65.4%[0m of   15.11MiB at [0;32m   1.53MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:56:06,706 - INFO - [download] [0;94m 65.8%[0m of   15.11MiB at [0;32m   1.83MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:56:06,740 - INFO - [download] [0;94m 66.6%[0m of   15.11MiB at [0;32m   2.46MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:56:06,773 - INFO - [download] [0;94m 68.3%[0m of   15.11MiB at [0;32m   3.72MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:56:06,806 - INFO - [download] [0;94m 71.6%[0m of   15.11MiB at [0;32m   5.94MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:06,847 - INFO - [download] [0;94m 78.2%[0m of   15.11MiB at [0;32m   9.56MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:06,904 - INFO - [download] [0;94m 91.4%[0m of   15.11MiB at [0;32m  15.05MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:07,137 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m  10.59MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:56:07,142 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m13.04MiB/s[0m
+2025-07-27 05:56:07,150 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 05:56:07,166 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 05:56:07,170 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:07] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:56:17,999 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:17] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:31,129 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:31] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:31,510 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:31] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:31,685 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:31] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:31,833 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:31] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,097 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,250 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,369 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,501 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,686 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:32,779 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,098 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,191 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,311 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,442 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,727 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:33,888 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:33] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:56:37,797 - INFO - 127.0.0.1 - - [27/Jul/2025 05:56:37] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:58:50,566 - INFO - 127.0.0.1 - - [27/Jul/2025 05:58:50] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 05:59:10,562 - INFO - 127.0.0.1 - - [27/Jul/2025 05:59:10] "GET / HTTP/1.1" 200 -
+2025-07-27 05:59:11,197 - INFO - 127.0.0.1 - - [27/Jul/2025 05:59:11] "GET / HTTP/1.1" 200 -
+2025-07-27 05:59:11,325 - INFO - 127.0.0.1 - - [27/Jul/2025 05:59:11] "GET / HTTP/1.1" 200 -
+2025-07-27 05:59:20,019 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:59:22,389 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 05:59:22,502 - INFO - Fetching video info...
+2025-07-27 05:59:22,512 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:59:22,513 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:59:22,515 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:59:22,519 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:59:23,516 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:59:24,092 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:59:24,392 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:59:24,700 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:59:24,750 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:59:24,958 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:59:25,081 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 05:59:25,082 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 05:59:25,085 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 05:59:25,088 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 05:59:25,941 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 05:59:26,440 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 05:59:26,755 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 05:59:27,066 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 05:59:27,121 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 05:59:27,330 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 05:59:27,464 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 05:59:27,465 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 236.66KiB/s[0m ETA [0;33m01:05[0m
+2025-07-27 05:59:27,466 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 567.92KiB/s[0m ETA [0;33m00:27[0m
+2025-07-27 05:59:27,468 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:14[0m
+2025-07-27 05:59:27,469 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   1.92MiB/s[0m ETA [0;33m00:07[0m
+2025-07-27 05:59:27,496 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m 893.98KiB/s[0m ETA [0;33m00:17[0m
+2025-07-27 05:59:27,526 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m 984.23KiB/s[0m ETA [0;33m00:15[0m
+2025-07-27 05:59:27,550 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.42MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 05:59:27,581 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.11MiB/s[0m ETA [0;33m00:07[0m
+2025-07-27 05:59:27,611 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.32MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:59:27,653 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   5.23MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:59:27,719 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   7.76MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:59:27,844 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  10.45MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:59:27,994 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  15.04MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:59:28,061 - INFO - [download] [0;94m 62.9%[0m of   15.11MiB at [0;32m  15.88MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:59:28,180 - INFO - [download] [0;94m 62.9%[0m of   15.11MiB at [0;32m 371.37KiB/s[0m ETA [0;33m00:15[0m
+2025-07-27 05:59:28,182 - INFO - [download] [0;94m 62.9%[0m of   15.11MiB at [0;32m 674.69KiB/s[0m ETA [0;33m00:08[0m
+2025-07-27 05:59:28,183 - INFO - [download] [0;94m 63.0%[0m of   15.11MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 05:59:28,186 - INFO - [download] [0;94m 63.0%[0m of   15.11MiB at [0;32m   2.04MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:59:28,193 - INFO - [download] [0;94m 63.1%[0m of   15.11MiB at [0;32m   2.07MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:59:28,213 - INFO - [download] [0;94m 63.3%[0m of   15.11MiB at [0;32m   1.74MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 05:59:28,242 - INFO - [download] [0;94m 63.7%[0m of   15.11MiB at [0;32m   1.95MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:59:28,275 - INFO - [download] [0;94m 64.6%[0m of   15.11MiB at [0;32m   2.55MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 05:59:28,328 - INFO - [download] [0;94m 66.2%[0m of   15.11MiB at [0;32m   3.33MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:59:28,404 - INFO - [download] [0;94m 69.5%[0m of   15.11MiB at [0;32m   4.41MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 05:59:28,518 - INFO - [download] [0;94m 76.1%[0m of   15.11MiB at [0;32m   5.90MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:59:28,712 - INFO - [download] [0;94m 89.4%[0m of   15.11MiB at [0;32m   7.50MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:59:28,870 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m   8.10MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 05:59:28,873 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m9.92MiB/s[0m
+2025-07-27 05:59:28,884 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 05:59:28,901 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 05:59:28,902 - INFO - 127.0.0.1 - - [27/Jul/2025 05:59:28] "POST /download HTTP/1.1" 200 -
+2025-07-27 05:59:32,820 - INFO - 127.0.0.1 - - [27/Jul/2025 05:59:32] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 06:03:18,347 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 06:03:22,129 - INFO - yt-dlp is already up to date
+2025-07-27 06:03:22,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.145.243:5000
+2025-07-27 06:03:22,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 06:03:22,206 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 06:03:23,717 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 06:03:27,529 - INFO - yt-dlp is already up to date
+2025-07-27 06:03:27,561 - WARNING -  * Debugger is active!
+2025-07-27 06:03:27,569 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 06:03:51,838 - INFO - 127.0.0.1 - - [27/Jul/2025 06:03:51] "GET / HTTP/1.1" 200 -
+2025-07-27 06:04:31,178 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:04:33,176 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 06:04:33,414 - INFO - Fetching video info...
+2025-07-27 06:04:34,441 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:04:34,443 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 06:04:34,478 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 06:04:34,481 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:04:35,478 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:04:36,109 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:04:36,382 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:04:36,675 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:04:36,730 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:04:36,961 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:04:37,080 - INFO - Removed existing file: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:04:37,089 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:04:37,090 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 06:04:37,092 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 06:04:37,096 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:04:38,087 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:04:38,592 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:04:38,867 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:04:39,167 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:04:39,219 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:04:39,426 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 06:04:39,562 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:04:39,563 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 143.49KiB/s[0m ETA [0;33m01:47[0m
+2025-07-27 06:04:39,564 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 374.39KiB/s[0m ETA [0;33m00:41[0m
+2025-07-27 06:04:39,566 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 760.72KiB/s[0m ETA [0;33m00:20[0m
+2025-07-27 06:04:39,567 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   1.36MiB/s[0m ETA [0;33m00:11[0m
+2025-07-27 06:04:39,591 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m 907.17KiB/s[0m ETA [0;33m00:17[0m
+2025-07-27 06:04:39,608 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.19MiB/s[0m ETA [0;33m00:12[0m
+2025-07-27 06:04:39,640 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.48MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 06:04:39,659 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.46MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 06:04:39,701 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.46MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 06:04:39,737 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   5.55MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:04:39,774 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   9.21MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:04:39,831 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  14.60MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:39,983 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  18.81MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,020 - INFO - [download] [0;94m 63.9%[0m of   15.11MiB at [0;32m  20.87MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,120 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m 150.97KiB/s[0m ETA [0;33m00:36[0m
+2025-07-27 06:04:40,121 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m 375.06KiB/s[0m ETA [0;33m00:14[0m
+2025-07-27 06:04:40,123 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m 727.10KiB/s[0m ETA [0;33m00:07[0m
+2025-07-27 06:04:40,124 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m   1.38MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:04:40,145 - INFO - [download] [0;94m 64.1%[0m of   15.11MiB at [0;32m 958.51KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 06:04:40,159 - INFO - [download] [0;94m 64.4%[0m of   15.11MiB at [0;32m   1.37MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:04:40,189 - INFO - [download] [0;94m 64.8%[0m of   15.11MiB at [0;32m   1.65MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:04:40,212 - INFO - [download] [0;94m 65.6%[0m of   15.11MiB at [0;32m   2.52MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:04:40,255 - INFO - [download] [0;94m 67.3%[0m of   15.11MiB at [0;32m   3.54MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:04:40,298 - INFO - [download] [0;94m 70.6%[0m of   15.11MiB at [0;32m   5.42MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,343 - INFO - [download] [0;94m 77.2%[0m of   15.11MiB at [0;32m   8.74MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,408 - INFO - [download] [0;94m 90.4%[0m of   15.11MiB at [0;32m  13.61MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,459 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m  15.81MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:04:40,463 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m14.86MiB/s[0m
+2025-07-27 06:04:40,472 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 06:04:40,488 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 06:04:40,490 - INFO - 127.0.0.1 - - [27/Jul/2025 06:04:40] "POST /download HTTP/1.1" 200 -
+2025-07-27 06:04:44,836 - INFO - 127.0.0.1 - - [27/Jul/2025 06:04:44] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 06:08:01,677 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 06:08:01,678 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 06:08:01,679 - INFO -  * Detected change in 'C:\\Users\\shubh\\Desktop\\Downloader\\app.py', reloading
+2025-07-27 06:08:02,678 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-27 06:08:04,362 - INFO - Current yt-dlp version: 2025.07.21
+2025-07-27 06:08:08,109 - INFO - yt-dlp is already up to date
+2025-07-27 06:08:08,139 - WARNING -  * Debugger is active!
+2025-07-27 06:08:08,148 - INFO -  * Debugger PIN: 205-735-069
+2025-07-27 06:08:54,574 - INFO - 127.0.0.1 - - [27/Jul/2025 06:08:54] "GET / HTTP/1.1" 200 -
+2025-07-27 06:08:55,450 - INFO - 127.0.0.1 - - [27/Jul/2025 06:08:55] "GET / HTTP/1.1" 200 -
+2025-07-27 06:08:55,580 - INFO - 127.0.0.1 - - [27/Jul/2025 06:08:55] "GET / HTTP/1.1" 200 -
+2025-07-27 06:08:55,710 - INFO - 127.0.0.1 - - [27/Jul/2025 06:08:55] "GET / HTTP/1.1" 200 -
+2025-07-27 06:08:55,835 - INFO - 127.0.0.1 - - [27/Jul/2025 06:08:55] "GET / HTTP/1.1" 200 -
+2025-07-27 06:09:03,104 - INFO - Starting download for URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:09:05,128 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 06:09:05,368 - INFO - Fetching video info...
+2025-07-27 06:09:06,416 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:09:06,417 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 06:09:06,453 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 06:09:06,455 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:09:07,591 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:09:08,132 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:09:08,403 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:09:08,720 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:09:08,780 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:09:09,018 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:09:09,140 - INFO - [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg&list=RDPa8O2pNywjg&start_radio=1
+2025-07-27 06:09:09,141 - INFO - [youtube:tab] Downloading just the video Pa8O2pNywjg because of --no-playlist
+2025-07-27 06:09:09,144 - INFO - [youtube] Extracting URL: https://www.youtube.com/watch?v=Pa8O2pNywjg
+2025-07-27 06:09:09,146 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:09:10,054 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:09:10,421 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:09:10,705 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:09:11,024 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:09:11,077 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:09:11,288 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 06:09:11,446 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:09:11,447 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 396.44KiB/s[0m ETA [0;33m00:39[0m
+2025-07-27 06:09:11,448 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 843.53KiB/s[0m ETA [0;33m00:18[0m
+2025-07-27 06:09:11,449 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m   1.50MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 06:09:11,450 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m   2.32MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 06:09:11,473 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:14[0m
+2025-07-27 06:09:11,498 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.16MiB/s[0m ETA [0;33m00:12[0m
+2025-07-27 06:09:11,529 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.47MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 06:09:11,553 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   2.29MiB/s[0m ETA [0;33m00:06[0m
+2025-07-27 06:09:11,595 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   3.31MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 06:09:11,647 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   4.93MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:09:11,703 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   7.74MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:09:11,801 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  11.20MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,003 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  14.33MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,079 - INFO - [download] [0;94m 65.8%[0m of   15.11MiB at [0;32m  15.65MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,425 - INFO - [download] [0;94m 65.8%[0m of   15.11MiB at [0;32m 195.62KiB/s[0m ETA [0;33m00:27[0m
+2025-07-27 06:09:12,427 - INFO - [download] [0;94m 65.8%[0m of   15.11MiB at [0;32m 488.66KiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 06:09:12,428 - INFO - [download] [0;94m 65.8%[0m of   15.11MiB at [0;32m 892.24KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 06:09:12,429 - INFO - [download] [0;94m 65.9%[0m of   15.11MiB at [0;32m   1.64MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:09:12,451 - INFO - [download] [0;94m 66.0%[0m of   15.11MiB at [0;32m   1.00MiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 06:09:12,479 - INFO - [download] [0;94m 66.2%[0m of   15.11MiB at [0;32m   1.05MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 06:09:12,496 - INFO - [download] [0;94m 66.6%[0m of   15.11MiB at [0;32m   1.64MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:09:12,525 - INFO - [download] [0;94m 67.4%[0m of   15.11MiB at [0;32m   2.38MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:09:12,563 - INFO - [download] [0;94m 69.1%[0m of   15.11MiB at [0;32m   3.49MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:09:12,612 - INFO - [download] [0;94m 72.4%[0m of   15.11MiB at [0;32m   5.25MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,692 - INFO - [download] [0;94m 79.0%[0m of   15.11MiB at [0;32m   7.35MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,766 - INFO - [download] [0;94m 92.2%[0m of   15.11MiB at [0;32m  11.56MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,813 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m  13.23MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:09:12,816 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m10.02MiB/s[0m
+2025-07-27 06:09:12,826 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 06:09:12,842 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 06:09:12,843 - INFO - 127.0.0.1 - - [27/Jul/2025 06:09:12] "POST /download HTTP/1.1" 200 -
+2025-07-27 06:09:19,640 - INFO - 127.0.0.1 - - [27/Jul/2025 06:09:19] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 06:09:56,342 - INFO - 127.0.0.1 - - [27/Jul/2025 06:09:56] "GET / HTTP/1.1" 200 -
+2025-07-27 06:10:10,187 - INFO - Starting download for URL: https://youtu.be/Pa8O2pNywjg?si=-tUxJLsgivlFVDd_
+2025-07-27 06:10:12,229 - WARNING - Could not extract cookies from browser: Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+2025-07-27 06:10:12,342 - INFO - Fetching video info...
+2025-07-27 06:10:12,351 - INFO - [youtube] Extracting URL: https://youtu.be/Pa8O2pNywjg?si=-tUxJLsgivlFVDd_
+2025-07-27 06:10:12,354 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:10:13,693 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:10:14,119 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:10:14,401 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:10:14,733 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:10:14,841 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:10:15,060 - INFO - Output path: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:10:15,190 - INFO - [youtube] Extracting URL: https://youtu.be/Pa8O2pNywjg?si=-tUxJLsgivlFVDd_
+2025-07-27 06:10:15,193 - INFO - [youtube] Pa8O2pNywjg: Downloading initial data API JSON
+2025-07-27 06:10:16,240 - INFO - [youtube] Pa8O2pNywjg: Downloading android player API JSON
+2025-07-27 06:10:16,644 - INFO - [youtube] Pa8O2pNywjg: Downloading iframe API JS
+2025-07-27 06:10:16,926 - INFO - [youtube] Pa8O2pNywjg: Downloading web player API JSON
+2025-07-27 06:10:17,263 - WARNING - [youtube] Pa8O2pNywjg: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+2025-07-27 06:10:17,316 - WARNING - [youtube] Pa8O2pNywjg: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+2025-07-27 06:10:17,522 - INFO - [info] Pa8O2pNywjg: Downloading 1 format(s): 18
+2025-07-27 06:10:17,683 - INFO - [download] Destination: downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4
+2025-07-27 06:10:17,685 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m  76.68KiB/s[0m ETA [0;33m03:21[0m
+2025-07-27 06:10:17,686 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 190.95KiB/s[0m ETA [0;33m01:21[0m
+2025-07-27 06:10:17,687 - INFO - [download] [0;94m  0.0%[0m of   15.11MiB at [0;32m 406.13KiB/s[0m ETA [0;33m00:38[0m
+2025-07-27 06:10:17,689 - INFO - [download] [0;94m  0.1%[0m of   15.11MiB at [0;32m 779.02KiB/s[0m ETA [0;33m00:19[0m
+2025-07-27 06:10:17,696 - INFO - [download] [0;94m  0.2%[0m of   15.11MiB at [0;32m   1.22MiB/s[0m ETA [0;33m00:12[0m
+2025-07-27 06:10:17,730 - INFO - [download] [0;94m  0.4%[0m of   15.11MiB at [0;32m   1.05MiB/s[0m ETA [0;33m00:14[0m
+2025-07-27 06:10:17,760 - INFO - [download] [0;94m  0.8%[0m of   15.11MiB at [0;32m   1.38MiB/s[0m ETA [0;33m00:10[0m
+2025-07-27 06:10:17,800 - INFO - [download] [0;94m  1.6%[0m of   15.11MiB at [0;32m   1.93MiB/s[0m ETA [0;33m00:07[0m
+2025-07-27 06:10:17,848 - INFO - [download] [0;94m  3.3%[0m of   15.11MiB at [0;32m   2.80MiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 06:10:17,892 - INFO - [download] [0;94m  6.6%[0m of   15.11MiB at [0;32m   4.53MiB/s[0m ETA [0;33m00:03[0m
+2025-07-27 06:10:17,956 - INFO - [download] [0;94m 13.2%[0m of   15.11MiB at [0;32m   6.99MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:10:18,069 - INFO - [download] [0;94m 26.5%[0m of   15.11MiB at [0;32m  10.06MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:10:18,279 - INFO - [download] [0;94m 52.9%[0m of   15.11MiB at [0;32m  13.14MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:18,361 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m  14.03MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:18,505 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-07-27 06:10:18,506 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m1010.76KiB/s[0m ETA [0;33m00:05[0m
+2025-07-27 06:10:18,507 - INFO - [download] [0;94m 64.0%[0m of   15.11MiB at [0;32m   1.97MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:10:18,509 - INFO - [download] [0;94m 64.1%[0m of   15.11MiB at [0;32m   2.85MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:10:18,520 - INFO - [download] [0;94m 64.2%[0m of   15.11MiB at [0;32m   1.86MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:10:18,551 - INFO - [download] [0;94m 64.4%[0m of   15.11MiB at [0;32m   1.30MiB/s[0m ETA [0;33m00:04[0m
+2025-07-27 06:10:18,571 - INFO - [download] [0;94m 64.8%[0m of   15.11MiB at [0;32m   1.87MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:10:18,627 - INFO - [download] [0;94m 65.7%[0m of   15.11MiB at [0;32m   2.05MiB/s[0m ETA [0;33m00:02[0m
+2025-07-27 06:10:18,665 - INFO - [download] [0;94m 67.3%[0m of   15.11MiB at [0;32m   3.11MiB/s[0m ETA [0;33m00:01[0m
+2025-07-27 06:10:18,719 - INFO - [download] [0;94m 70.6%[0m of   15.11MiB at [0;32m   4.66MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:18,813 - INFO - [download] [0;94m 77.2%[0m of   15.11MiB at [0;32m   6.49MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:19,012 - INFO - [download] [0;94m 90.5%[0m of   15.11MiB at [0;32m   7.87MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:19,122 - INFO - [download] [0;94m100.0%[0m of   15.11MiB at [0;32m   8.79MiB/s[0m ETA [0;33m00:00[0m
+2025-07-27 06:10:19,125 - INFO - [download] 100% of   15.11MiB in [1;37m00:00:01[0m at [0;32m9.52MiB/s[0m
+2025-07-27 06:10:19,135 - INFO - [VideoConvertor] Not converting media file "downloads\#Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4"; already is in target format mp4
+2025-07-27 06:10:19,151 - INFO - Successfully downloaded: #Video - Kamariya Aaye Haye _ Ft- Adarsh Anand & Samarika _ Chand Jee & Shilpi Raj _ कमरिया आये हाय.mp4 (15848437 bytes)
+2025-07-27 06:10:19,153 - INFO - 127.0.0.1 - - [27/Jul/2025 06:10:19] "POST /download HTTP/1.1" 200 -
+2025-07-27 06:10:21,220 - INFO - 127.0.0.1 - - [27/Jul/2025 06:10:21] "[33mGET /download_file/ HTTP/1.1[0m" 404 -
+2025-07-27 06:12:36,415 - INFO - 127.0.0.1 - - [27/Jul/2025 06:12:36] "GET / HTTP/1.1" 200 -
+2025-07-27 06:12:46,171 - INFO - 127.0.0.1 - - [27/Jul/2025 06:12:46] "POST /download HTTP/1.1" 200 -
+2025-07-27 06:12:49,012 - INFO - Serving file: Video by updated_biharan.mp4 (original: Video by updated_biharan.mp4)
+2025-07-27 06:12:49,029 - INFO - 127.0.0.1 - - [27/Jul/2025 06:12:49] "GET /download_file/Video%20by%20updated_biharan.mp4 HTTP/1.1" 200 -
